@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Day 01 - Currency Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Currency Converter</h1>
+    <label>
+      Amount:
+      <input id="amount" type="number" placeholder="Enter number" />
+    </label>
+
+    <label>
+      Direction:
+      <select id="direction">
+        <option value="usd-to-sos">USD → SOS</option>
+        <option value="sos-to-usd">SOS → USD</option>
+      </select>
+    </label>
+
+    <div class="buttons">
+      <button id="convertBtn">Convert</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <p id="result"></p>
+  </div>
+  <script src="script.js"></script>
+  
+</body>
+</html>
