@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(202, 217, 230);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: auto;
+  text-align: center;
+}
+
+.container h1{
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+
+input{
+  width: 100%;
+  padding: 8px;
+  font-size: 18px;
+  font-weight: 500;
+}
+label{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+
+#checkBtn{
+  border: none;
+  display: inline-block;
+  margin: 0 auto;
+  background-color: #f44;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 1s;
+}
+#checkBtn:hover{
+  opacity: 0.5;
+}
+
+#message{
+  margin-top: 20px;
+}

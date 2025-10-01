@@ -1,5 +1,5 @@
 // Constant exchange rate
-const RATE_USD_TO_SOS = 57000;
+const RATE_USD_TO_SOS = 30000;
 
 // DOM elements
 const amountInput = document.getElementById('amount');
