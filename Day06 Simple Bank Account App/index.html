@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Bank Account App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🏦 Simple Bank Account</h1>
+
+    <div class="account-info">
+      <h2 id="owner">Account Owner: Mohamed</h2>
+      <p id="balance">Balance: $0</p>
+    </div>
+
+    <div class="actions">
+      <input type="number" id="amount" placeholder="Enter amount">
+      <button id="deposit">Deposit</button>
+      <button id="withdraw">Withdraw</button>
+      <button id="check">Check Balance</button>
+    </div>
+
+    <div id="log" class="log">
+      <h3>📜 Transaction History</h3>
+      <ul id="history"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
