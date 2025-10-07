@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+  <div class="left-panel">
+    <h2>🎓 Student Manager</h2>
+    
+    <div class="form">
+      <input type="text" id="name" placeholder="Student Name">
+      <input type="number" id="age" placeholder="Age">
+      <input type="number" id="grade" placeholder="Grade">
+      <button id="addBtn">Add Student</button>
+      <button id="avgBtn">Show Average</button>
+    </div>
+
+    <div class="actions">
+      <input type="text" id="searchInput" placeholder="🔍 Search by Name">
+      <button id="sortBtn">Sort by Grade ⬆️</button>
+    </div>
+  </div>
+
+  <div class="right-panel">
+    <table id="studentTable">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Grade</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div id="averageOutput"></div>
+  </div>
+
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

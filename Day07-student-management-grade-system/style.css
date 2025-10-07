@@ -1,0 +1,121 @@
+/* Reset and body */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #ece9e6, #ffffff);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* full screen height */
+}
+
+/* Main container: two sections side by side */
+.container {
+  display: flex;
+  width: 90%;
+  height: 90vh;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* Left side - inputs and buttons */
+.left-panel {
+  flex: 1;
+  background: #f9fafb;
+  padding: 20px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 2px solid #eee;
+}
+
+.left-panel h2 {
+  text-align: center;
+  color: #444;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.form button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #0078ff;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form button:hover {
+  background: #005fd1;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.actions input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Right side - table */
+.right-panel {
+  flex: 2;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background: #0078ff;
+  color: white;
+}
+
+.deleteBtn {
+  background: #ff4b4b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  background: #e63c3c;
+}
+
+#averageOutput {
+  font-weight: bold;
+  color: #333;
+  margin-top: 5px;
+  text-align: center;
+}
