@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(rgba(100,50,255,0.9),rgba(100,200,50,0.3));
+  font-family: sans-serif;
+}
+.container{
+  background-color: #fff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  box-shadow: 0 0 10px rgba(200, 0, 0, 0.8);
+  border-radius: 10px;
+
+}
+.container h1{
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.container h1 span{
+  color: #f44;
+}
+
+
+
+#todo{
+  width: 85%;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #333;
+  
+}
+
+.addTask{
+  background-color: blue;
+  color: #fff;
+  border: none;
+  outline: none;
+  width: 13.5%;
+  position: relative;
+  bottom: -2px;
+  padding: 4px 5px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+ li{
+  list-style: none;
+  background-color: #e9e4e4;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin: 20px 0;
+}
+
+.delete-btn{
+  transition: 0.5s;
+  /* visibility: hidden; */
+  border: none;
+  color: red;
+  position: relative;
+  z-index: 2;
+
+}
+.delete-btn:hover{
+  color: #f44;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  
+  cursor: pointer;
+} 
+
+#result{
+  color: #777;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.output{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Clear{
+  background-color: blue;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
